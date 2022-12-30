@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlistClientes>
+    <playlist id='001'>
+        <nitCliente>1650724k</nitCliente>
+        <vinyl>True</vinyl>
+        <compacto>False</compacto>
+        <categoria>Chillin'</categoria>
+        <canciones>
+            <cancion id='001'>
+                <nombre>Peppa, la potra</nombre>
+                <anio>1960</anio>
+                <artista>Peppa</artista>
+                <genero>Infantil</genero>
+            </cancion>
+            <cancion id='002'>
+                <nombre>Lucas, estrenemos Jalapeño</nombre>
+                <anio>2022</anio>
+                <artista>Hendery</artista>
+                <genero>Kpop</genero>
+            </cancion>
+            <cancion id='003'>
+                <nombre>Feliz Navidad, Wonho</nombre>
+                <anio>2022</anio>
+                <artista>Diana</artista>
+                <genero>Navideña</genero>
+            </cancion>
+            <cancion id='004'>
+                <nombre>Kurosawa y Adachi, mis papás</nombre>
+                <anio>1989</anio>
+                <artista>Diana</artista>
+                <genero>Fantasía</genero>
+            </cancion>
+        </canciones>
+    </playlist>
+    <playlist id='002'>
+        <nitCliente>1650724k</nitCliente>
+        <vinyl>False</vinyl>
+        <compacto>True</compacto>
+        <categoria>Deporte</categoria>
+        <canciones>
+            <cancion id='005'>
+                <nombre>WayV no actúa bien</nombre>
+                <anio>2022</anio>
+                <artista>NCT sin WayV</artista>
+                <genero>Kpop</genero>
+            </cancion>
+            <cancion id='006'>
+                <nombre>Christian parece Fuckboy</nombre>
+                <anio>2022</anio>
+                <artista>DPR IAN</artista>
+                <genero>Kti</genero>
+            </cancion>
+            <cancion id='007'>
+                <nombre>Bond, James Bond</nombre>
+                <anio>2022</anio>
+                <artista>Daniel Craig</artista>
+                <genero>Soundtrack</genero>
+            </cancion>
+            <cancion id='008'>
+                <nombre>I kissed your brother</nombre>
+                <anio>2022</anio>
+                <artista>Seulgi</artista>
+                <genero>Kpop</genero>
+            </cancion>
+        </canciones>
+    </playlist>
+    <playlist id='003'>
+        <nitCliente>1650724k</nitCliente>
+        <vinyl>True</vinyl>
+        <compacto>True</compacto>
+        <categoria>Fiesta</categoria>
+        <canciones>
+            <cancion id='009'>
+                <nombre>El Félix es un Panzón</nombre>
+                <anio>2022</anio>
+                <artista>La Maze</artista>
+                <genero>Felina</genero>
+            </cancion>
+            <cancion id='010'>
+                <nombre>La Maze tiene patas de chucho</nombre>
+                <anio>2022</anio>
+                <artista>El Félix</artista>
+                <genero>Felina</genero>
+            </cancion>
+            <cancion id='011'>
+                <nombre>Sólo quiero dormir</nombre>
+                <anio>2022</anio>
+                <artista>La computadora</artista>
+                <genero>Cualquiera</genero>
+            </cancion>
+            <cancion id='012'>
+                <nombre>Salud</nombre>
+                <anio>2022</anio>
+                <artista>Gracias</artista>
+                <genero>Banda</genero>
+            </cancion>
+        </canciones>
+    </playlist>
+    <playlist id='004'>
+        <nitCliente>1650724k</nitCliente>
+        <vinyl>False</vinyl>
+        <compacto>True</compacto>
+        <categoria>Deporte</categoria>
+        <canciones>
+            <cancion id='005'>
+                <nombre>WayV no actúa bien</nombre>
+                <anio>2022</anio>
+                <artista>NCT sin WayV</artista>
+                <genero>Kpop</genero>
+            </cancion>
+            <cancion id='006'>
+                <nombre>Christian parece Fuckboy</nombre>
+                <anio>2022</anio>
+                <artista>DPR IAN</artista>
+                <genero>Kti</genero>
+            </cancion>
+            <cancion id='007'>
+                <nombre>Bond, James Bond</nombre>
+                <anio>2022</anio>
+                <artista>Daniel Craig</artista>
+                <genero>Soundtrack</genero>
+            </cancion>
+            <cancion id='008'>
+                <nombre>I kissed your brother</nombre>
+                <anio>2022</anio>
+                <artista>Seulgi</artista>
+                <genero>Kpop</genero>
+            </cancion>
+        </canciones>
+    </playlist>
+    <playlist id='005'>
+        <nitCliente>33333333</nitCliente>
+        <vinyl>True</vinyl>
+        <compacto>False</compacto>
+        <categoria>Chillin'</categoria>
+        <canciones>
+            <cancion id='001'>
+                <nombre>Peppa, la potra</nombre>
+                <anio>1960</anio>
+                <artista>Peppa</artista>
+                <genero>Infantil</genero>
+            </cancion>
+            <cancion id='002'>
+                <nombre>Lucas, estrenemos Jalapeño</nombre>
+                <anio>2022</anio>
+                <artista>Hendery</artista>
+                <genero>Kpop</genero>
+            </cancion>
+            <cancion id='003'>
+                <nombre>Feliz Navidad, Wonho</nombre>
+                <anio>2022</anio>
+                <artista>Diana</artista>
+                <genero>Navideña</genero>
+            </cancion>
+            <cancion id='004'>
+                <nombre>Kurosawa y Adachi, mis papás</nombre>
+                <anio>1989</anio>
+                <artista>Diana</artista>
+                <genero>Fantasía</genero>
+            </cancion>
+        </canciones>
+    </playlist>
+</playlistClientes>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listaEmpresas>
+    <empresa id='001'>
+        <nombre>Pepe And Co.</nombre>
+    </empresa>
+    <empresa id='002'>
+        <nombre>La Maze y el Félix</nombre>
+    </empresa>
+    <empresa id='003'>
+        <nombre>Telegato</nombre>
+    </empresa>
+</listaEmpresas>

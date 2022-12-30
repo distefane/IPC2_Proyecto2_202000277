@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listaClientes>
+    <cliente nit="1650724k">
+        <nombre>Diana Berducido</nombre>
+        <usuario> dianab </usuario>
+        <clave> dianab123 </clave>
+        <direccion> Guatemala, Guatemala </direccion>
+        <correoElectronico> dianab@gmail.com </correoElectronico>
+        <empresa> 001 </empresa>
+        <playlistsAsociadas>
+            <playlist>001</playlist>
+            <playlist>002</playlist>
+            <playlist>003</playlist>
+            <playlist>004</playlist>
+        </playlistsAsociadas>
+    </cliente>
+    <cliente nit="33333333">
+        <nombre> Julissa Berducido </nombre>
+        <usuario> julissab </usuario>
+        <clave> julissab123 </clave>
+        <direccion> Guatemala </direccion>
+        <correoElectronico> julissab@gmail.com </correoElectronico>
+        <empresa> 002 </empresa>
+        <playlistsAsociadas>
+            <playlist>005</playlist>
+        </playlistsAsociadas>
+    </cliente>
+    <cliente nit="$nitCliente">
+        <nombre> $nombreCliente </nombre>
+        <usuario> $nombreUsuario </usuario>
+        <clave> $claveUsuario </clave>
+        <direccion> $direccionCliente </direccion>
+        <correoElectronico> $eMailCliente </correoElectronico>
+        <empresa> $idEmpresa </empresa>
+        <playlistsAsociadas>
+            <playlist>$idPlaylist</playlist>
+        </playlistsAsociadas>
+    </cliente>
+</listaClientes>
