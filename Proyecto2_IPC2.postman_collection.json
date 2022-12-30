@@ -1,0 +1,306 @@
+{
+	"info": {
+		"_postman_id": "d45f4c61-f1f2-4d06-94c9-466c412e5fd1",
+		"name": "Proyecto2_IPC2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20342700"
+	},
+	"item": [
+		{
+			"name": "Carga Masiva PLAYLISTS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<playlistClientes>\r\n    <playlist id='001'>\r\n        <nitCliente>1650724k</nitCliente>\r\n        <vinyl>True</vinyl>\r\n        <compacto>False</compacto>\r\n        <categoria>Chillin'</categoria>\r\n        <canciones>\r\n            <cancion id='001'>\r\n                <nombre>Peppa, la potra</nombre>\r\n                <anio>1960</anio>\r\n                <artista>Peppa</artista>\r\n                <genero>Infantil</genero>\r\n            </cancion>\r\n            <cancion id='002'>\r\n                <nombre>Lucas, estrenemos Jalapeño</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Hendery</artista>\r\n                <genero>Kpop</genero>\r\n            </cancion>\r\n            <cancion id='003'>\r\n                <nombre>Feliz Navidad, Wonho</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Diana</artista>\r\n                <genero>Navideña</genero>\r\n            </cancion>\r\n            <cancion id='004'>\r\n                <nombre>Kurosawa y Adachi, mis papás</nombre>\r\n                <anio>1989</anio>\r\n                <artista>Diana</artista>\r\n                <genero>Fantasía</genero>\r\n            </cancion>\r\n        </canciones>\r\n    </playlist>\r\n    <playlist id='002'>\r\n        <nitCliente>1650724k</nitCliente>\r\n        <vinyl>False</vinyl>\r\n        <compacto>True</compacto>\r\n        <categoria>Deporte</categoria>\r\n        <canciones>\r\n            <cancion id='005'>\r\n                <nombre>WayV no actúa bien</nombre>\r\n                <anio>2022</anio>\r\n                <artista>NCT sin WayV</artista>\r\n                <genero>Kpop</genero>\r\n            </cancion>\r\n            <cancion id='006'>\r\n                <nombre>Christian parece Fuckboy</nombre>\r\n                <anio>2022</anio>\r\n                <artista>DPR IAN</artista>\r\n                <genero>Kti</genero>\r\n            </cancion>\r\n            <cancion id='007'>\r\n                <nombre>Bond, James Bond</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Daniel Craig</artista>\r\n                <genero>Soundtrack</genero>\r\n            </cancion>\r\n            <cancion id='008'>\r\n                <nombre>I kissed your brother</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Seulgi</artista>\r\n                <genero>Kpop</genero>\r\n            </cancion>\r\n        </canciones>\r\n    </playlist>\r\n    <playlist id='003'>\r\n        <nitCliente>1650724k</nitCliente>\r\n        <vinyl>True</vinyl>\r\n        <compacto>True</compacto>\r\n        <categoria>Fiesta</categoria>\r\n        <canciones>\r\n            <cancion id='009'>\r\n                <nombre>El Félix es un Panzón</nombre>\r\n                <anio>2022</anio>\r\n                <artista>La Maze</artista>\r\n                <genero>Felina</genero>\r\n            </cancion>\r\n            <cancion id='010'>\r\n                <nombre>La Maze tiene patas de chucho</nombre>\r\n                <anio>2022</anio>\r\n                <artista>El Félix</artista>\r\n                <genero>Felina</genero>\r\n            </cancion>\r\n            <cancion id='011'>\r\n                <nombre>Sólo quiero dormir</nombre>\r\n                <anio>2022</anio>\r\n                <artista>La computadora</artista>\r\n                <genero>Cualquiera</genero>\r\n            </cancion>\r\n            <cancion id='012'>\r\n                <nombre>Salud</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Gracias</artista>\r\n                <genero>Banda</genero>\r\n            </cancion>\r\n        </canciones>\r\n    </playlist>\r\n    <playlist id='004'>\r\n        <nitCliente>1650724k</nitCliente>\r\n        <vinyl>False</vinyl>\r\n        <compacto>True</compacto>\r\n        <categoria>Deporte</categoria>\r\n        <canciones>\r\n            <cancion id='005'>\r\n                <nombre>WayV no actúa bien</nombre>\r\n                <anio>2022</anio>\r\n                <artista>NCT sin WayV</artista>\r\n                <genero>Kpop</genero>\r\n            </cancion>\r\n            <cancion id='006'>\r\n                <nombre>Christian parece Fuckboy</nombre>\r\n                <anio>2022</anio>\r\n                <artista>DPR IAN</artista>\r\n                <genero>Kti</genero>\r\n            </cancion>\r\n            <cancion id='007'>\r\n                <nombre>Bond, James Bond</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Daniel Craig</artista>\r\n                <genero>Soundtrack</genero>\r\n            </cancion>\r\n            <cancion id='008'>\r\n                <nombre>I kissed your brother</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Seulgi</artista>\r\n                <genero>Kpop</genero>\r\n            </cancion>\r\n        </canciones>\r\n    </playlist>\r\n    <playlist id='005'>\r\n        <nitCliente>33333333</nitCliente>\r\n        <vinyl>True</vinyl>\r\n        <compacto>False</compacto>\r\n        <categoria>Chillin'</categoria>\r\n        <canciones>\r\n            <cancion id='001'>\r\n                <nombre>Peppa, la potra</nombre>\r\n                <anio>1960</anio>\r\n                <artista>Peppa</artista>\r\n                <genero>Infantil</genero>\r\n            </cancion>\r\n            <cancion id='002'>\r\n                <nombre>Lucas, estrenemos Jalapeño</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Hendery</artista>\r\n                <genero>Kpop</genero>\r\n            </cancion>\r\n            <cancion id='003'>\r\n                <nombre>Feliz Navidad, Wonho</nombre>\r\n                <anio>2022</anio>\r\n                <artista>Diana</artista>\r\n                <genero>Navideña</genero>\r\n            </cancion>\r\n            <cancion id='004'>\r\n                <nombre>Kurosawa y Adachi, mis papás</nombre>\r\n                <anio>1989</anio>\r\n                <artista>Diana</artista>\r\n                <genero>Fantasía</genero>\r\n            </cancion>\r\n        </canciones>\r\n    </playlist>\r\n</playlistClientes>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/masivaPlaylists",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"masivaPlaylists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Carga Masiva EMPRESAS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<listaEmpresas>\r\n    <empresa id='001'>\r\n        <nombre>Pepe And Co.</nombre>\r\n    </empresa>\r\n    <empresa id='002'>\r\n        <nombre>La Maze y el Félix</nombre>\r\n    </empresa>\r\n    <empresa id='003'>\r\n        <nombre>Telegato</nombre>\r\n    </empresa>\r\n</listaEmpresas>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/masivaEmpresas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"masivaEmpresas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Carga Masiva CLIENTES",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<listaClientes>\r\n    <cliente nit=\"1650724k\">\r\n        <nombre>Diana Berducido</nombre>\r\n        <usuario> dianab </usuario>\r\n        <clave> dianab123 </clave>\r\n        <direccion> Guatemala, Guatemala </direccion>\r\n        <correoElectronico> dianab@gmail.com </correoElectronico>\r\n        <empresa> 001 </empresa>\r\n        <playlistsAsociadas>\r\n            <playlist>001</playlist>\r\n            <playlist>002</playlist>\r\n        </playlistsAsociadas>\r\n    </cliente>\r\n    <cliente nit=\"33333333\">\r\n        <nombre> Julissa Berducido </nombre>\r\n        <usuario> julissab </usuario>\r\n        <clave> julissab123 </clave>\r\n        <direccion> Guatemala </direccion>\r\n        <correoElectronico> julissab@gmail.com </correoElectronico>\r\n        <empresa> 002 </empresa>\r\n        <playlistsAsociadas>\r\n            <playlist>005</playlist>\r\n        </playlistsAsociadas>\r\n    </cliente>\r\n    <cliente nit=\"1650724k\">\r\n        <nombre> $nombreCliente </nombre>\r\n        <usuario> $nombreUsuario </usuario>\r\n        <clave> $claveUsuario </clave>\r\n        <direccion> $direccionCliente </direccion>\r\n        <correoElectronico> $eMailCliente </correoElectronico>\r\n        <empresa> $idEmpresa </empresa>\r\n        <playlistsAsociadas>\r\n        <playlist>004</playlist>\r\n        </playlistsAsociadas>\r\n    </cliente>\r\n</listaClientes>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/masivaClientes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"masivaClientes"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar PLAYLISTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mostrarPlaylists",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mostrarPlaylists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar CLIENTES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mostrarClientes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mostrarClientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar EMPRESAS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mostrarEmpresas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mostrarEmpresas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar CLIENTE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nit\": \"33333333\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/eliminarCliente",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"eliminarCliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar CANCION",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_playlist\": \"002\",\r\n    \"id_cancion\": \"007\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/eliminarCancion",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"eliminarCancion"
+					],
+					"query": [
+						{
+							"key": "id_cancion",
+							"value": "001",
+							"disabled": true
+						},
+						{
+							"key": "id_playlist",
+							"value": "001",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generar FACTURA",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_empresa\" : \"$idEmpresa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/generarFactura",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"generarFactura"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ver DOCUMENTACION",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/documentacion",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"documentacion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
